@@ -1,0 +1,38 @@
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #252525;
+}
+
+/* HEADER */
+.header {
+  background-color: #252525;
+  padding: 20px 0;
+}
+.header-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.header-container::before, .header-container::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.header-logo {
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+.header-nav {
+  float: right;
+  margin-right: 10px;
+}
+.header-nav li {
+  display: inline-block;
+}
+.header-nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 1.125rem
+}
