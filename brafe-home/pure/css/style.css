@@ -63,3 +63,50 @@ body {
   font-size: 1.125em;
   font-style: italic;
 }
+
+/* ABOUT */
+.about {
+  padding: 60px 0;
+  text-align: center;
+}
+.about h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+.about-container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+.about-container::before, .about-container::after{
+  clear: both;
+  content: '';
+  display: table;
+}
+.about-item {
+  float: left;
+  margin: 0 10px;
+  width: 460px;
+}
+.about-item img {
+  display: block;
+  max-width: 100%;
+}
+.about-item h3 {
+  background-color: #252525;
+  color: #FFF;
+  font-size: 2.25rem;
+  font-style: italic;
+  line-height: 1em;
+  padding: 5px 0 10px;
+  position: relative;
+  top: -25px;
+  width: 220px;
+}
+.about > p {
+  font-size: 1.125rem;
+  font-style: italic;
+  line-height: 1.4em;
+  margin: 20px auto;
+  max-width: 460px;
+}
