@@ -256,8 +256,8 @@ h2.product-mineiro::before {
   font-style: italic;
 }
 
-.newsletter > form {
-  float: left;
+.newsletter form {
+  float: right;
   margin: 10px 10px 0;
   width: 460px;
 }
@@ -286,4 +286,32 @@ h2.product-mineiro::before {
   padding: 13px 0;
   text-transform: uppercase;
   width: 140px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #D3D6C8;
+  padding: 40px 0;
+}
+
+.footer-container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+.footer-container::before, .footer-container::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.footer p {
+  float: left;
+  font-size: 1.125em;
+  line-height: 1.4em;
+  margin: 0 10px;
+}
+.footer img {
+  display: block;
+  float: right;
+  margin: 0 10px;
 }
