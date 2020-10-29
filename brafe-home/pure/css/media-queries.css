@@ -1,0 +1,118 @@
+@media only screen and (max-width: 959px) {
+  html {
+    font-size: 17px;
+  }
+
+  /* ABOUT */
+  .about-container {
+    max-width: 720px;
+  }
+  .about-item {
+    width: 340px;
+  }
+
+  /* PRODUCTS */
+  .products-container {
+    max-width: 720px;
+  }
+  .products-item {
+    width: 220px;
+  }
+
+  /* STORES */
+  .stores {
+    max-width: 720px;
+  }
+  .stores-item > div, .stores-item > img{
+    width: 340px;
+  }
+
+  /* NEWSLETTER */
+  .newsletter-container {
+    max-width: 720px;
+  }
+  .newsletter-info, .newsletter form, .newsletter form > input, .newsletter form > button {
+    width: 340px;
+  }
+}
+
+
+@media only screen and (max-width: 739px) {
+  html {
+    font-size: 18px;
+  }
+
+  /* HEADER */
+  .header-logo {
+    float: none;
+    margin: 0 auto;
+    width: fit-content;
+  }
+  .header-nav {
+    clear: both;
+    float: none;
+    text-align: center;
+  }
+  .header-nav a {
+    font-size: 0.88rem;
+    padding-right: 0px;
+  }
+
+  /* INTRO */
+  .intro {
+    padding: 60px 0;
+  }
+
+  /* ABOUT */
+  .about-container {
+    max-width: 300px;
+  }
+  .about-item {
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  /* PRODUCTS */
+  .products-container {
+    max-width: 300px;
+  }
+  .products-item {
+    margin: 0 auto 20px;
+    width: 300px;
+  }
+
+  /* STORES */
+  .stores {
+    max-width: 300px;
+  }
+  .stores-item > div, .stores-item > img{
+    margin: 0;
+    width: 300px;
+  }
+
+  /* NEWSLETTER */
+  .newsletter-container {
+    max-width: 300px;
+  }
+  .newsletter-info, .newsletter form, .newsletter form > input, .newsletter form > button {
+    margin: 0;
+    width: 300px;
+  }
+  .newsletter form {
+    margin: 20px 0 0;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    max-width: 300px;
+  }
+  .footer-container p {
+    float: none;
+    margin: 0;
+    width: 300px;
+  }
+  .footer-container img {
+    float: none;
+    margin: 20px 0 0;
+  }
+}
