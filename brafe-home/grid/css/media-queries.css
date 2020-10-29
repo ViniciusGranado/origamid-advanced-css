@@ -21,4 +21,13 @@
   .intro {
     padding: 40px 0;
   }
+
+  /* NEWSLETTER */
+  .newsletter input {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .newsletter button {
+    width: 100%;
+  }
 }
