@@ -30,4 +30,10 @@
   .newsletter button {
     width: 100%;
   }
+
+  /* FOOTER */
+  .footer img {
+    float: none;
+    margin-top: 20px;
+  }
 }
