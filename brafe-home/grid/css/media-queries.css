@@ -16,4 +16,9 @@
     padding-left: 4px;
     padding-right: 4px;
   }
+
+  /* INTRO */
+  .intro {
+    padding: 40px 0;
+  }
 }

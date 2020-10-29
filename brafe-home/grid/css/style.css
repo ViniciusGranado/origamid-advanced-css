@@ -34,6 +34,8 @@ body {
 	background: url('../images/bg-intro.jpg') no-repeat center center;
 	background-size: cover;
 	color: #fff;
+	padding: 150px 0;
+	text-align: center;
 }
 
 .intro h1 {
@@ -46,12 +48,13 @@ body {
 	content: '';
 	display: block;
 	height: 4px;
+	margin: 10px auto;
 	width: 20px;
 }
 
 .intro p {
-	font-style: italic;
 	font-size: 1.125em;
+	font-style: italic;
 }
 
 /* ABOUT */
