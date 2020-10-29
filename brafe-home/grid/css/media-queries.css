@@ -1,0 +1,19 @@
+@media only screen and (max-width: 739px) {
+  /* HEADER */
+  .header-logo {
+    float: none;
+    margin: 0 auto;
+    width: fit-content;
+  }
+  .header-nav {
+    text-align: center;
+  }
+  .header-nav ul{
+    float: none;
+  }
+  .header-nav ul li a{
+    margin-left: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+}
