@@ -107,10 +107,17 @@
 	background: #e7e4d8;
 	border-bottom: 3px solid #d6d3c8;
 	border-top: 3px solid #d6d3c8;
+	padding: 60px 0;
 }
 
+.products-item {
+	flex: 1;
+	margin: 0 10px 40px;
+}
 .products-item h2 {
-  font-size: 2.25em;
+	font-size: 2.25em;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 .products-item h2::before {
@@ -122,6 +129,7 @@
 	display: block;
 	height: 100px;
 	width: 100px;
+	margin: 20px auto;
 }
 
 h2.products-paulista::before {
@@ -144,11 +152,15 @@ h2.products-mineiro::before {
 .products-btn {
 	border: 3px solid #252525;
 	color: #252525;
-	text-decoration: none;
-	text-align: center;
+	display: block;
 	font-size: 1.125em;
 	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
 	text-transform: uppercase;
+	margin: 20px auto 0;
+	padding: 15px 0;
+	width: 180px;
 }
 
 /* STORES */
