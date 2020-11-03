@@ -97,7 +97,8 @@
 	line-height: 1.4em;
   margin: 20px auto;
   max-width: 460px;
-  text-align: center;
+	padding: 0 10px;
+	text-align: center;
 }
 
 /* PRODUCTS */

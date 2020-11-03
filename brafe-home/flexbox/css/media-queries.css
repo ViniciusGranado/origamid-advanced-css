@@ -12,4 +12,39 @@
   .header-nav a {
     padding: 10px 9px 10px 0;
   }
+
+  /* INTRO */
+  .intro {
+    padding: 60px 0;
+  }
+
+  /* ABOUT */
+  .about-item {
+    margin: 0;
+  }
+
+  /* PRODUCTS */
+  .products-item {
+    margin: 0 0 40px 0;
+  }
+
+  /* STORES */
+  .stores-item {
+    margin: 60px;
+  }
+  .stores-item .stores-img, .stores-item .stores-info {
+    margin: 0;
+  }
+  /* NEWSLETTER */
+  .newsletter-info {
+    margin: 0 0 20px 0;
+  }
+  .newsletter form {
+    margin: 0;
+  }
+
+  /* FOOTER */
+  .footer p, .footer-img {
+    margin: 10px 0;
+  }
 }
