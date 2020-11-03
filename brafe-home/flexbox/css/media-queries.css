@@ -1,0 +1,15 @@
+@media only screen and (max-width: 739px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 300px;
+  }
+
+  /* HEADER */
+  .header-logo {
+    margin: 0;
+  }
+  .header-nav a {
+    padding: 10px 9px 10px 0;
+  }
+}
