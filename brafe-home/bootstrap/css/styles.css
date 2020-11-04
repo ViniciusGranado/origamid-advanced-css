@@ -181,13 +181,15 @@ h2.products-mineiro::before {
 }
 
 /* NEWSLETTER */
-
 .newsletter {
 	background: #e7e4d8;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 .newsletter-info h2 {
 	font-size: 2.25em;
+	font-weight: bold;
 }
 
 .newsletter-info p {
@@ -195,26 +197,38 @@ h2.products-mineiro::before {
 	font-style: italic;
 }
 
+.newsletter form {
+	align-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
 .newsletter form label {
 	display: none;
 }
 
 .newsletter input {
-	border: 3px solid #252525;
+	align-self: flex-start;
 	background: none;
+	border: 3px solid #252525;
+	flex: 1;
+	font-family: Georgia, serif;
 	font-size: 1.5em;
 	font-style: italic;
-	font-family: Georgia, serif;
+	padding: 10px;
 }
 
 .newsletter button {
+	align-self: flex-start;
 	background: #252525;
 	border: none;
-	font-family: Georgia, serif;
-	text-transform: uppercase;
-	font-size: 1.5em;
 	color: #fff;
 	cursor: pointer;
+	flex: 1;
+	font-family: Georgia, serif;
+	font-size: 1.5em;
+	padding: 13px;
+	text-transform: uppercase;
 }
 
 /* FOOTER */

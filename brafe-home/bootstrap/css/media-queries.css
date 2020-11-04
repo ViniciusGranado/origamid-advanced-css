@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   /* HEADER */
   .header-nav ul {
     margin: 0;
@@ -13,4 +13,5 @@
   .intro {
     padding: 60px 0px;
   }
+  
 }
