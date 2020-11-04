@@ -51,7 +51,8 @@
 
 /* ABOUT */
 .about {
-	padding: 60px 0;
+	padding-bottom: 60px;
+	padding-top: 60px;
 }
 .about h2 {
 	font-size: 2.25em;
