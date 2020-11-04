@@ -14,4 +14,9 @@
     padding: 60px 0px;
   }
   
+  /* FOOTER */
+  .footer img {
+    margin-left: 0;
+    margin-top: 20px;
+  }
 }
