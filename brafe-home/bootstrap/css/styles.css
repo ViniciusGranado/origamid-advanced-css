@@ -21,29 +21,31 @@
 }
 
 /* INTRO */
-
 .intro {
 	background: url('../images/bg-intro.jpg') no-repeat center center;
 	background-size: cover;
 	color: #fff;
+	padding: 150px 0;
+	text-align: center;
 }
 
 .intro h1 {
-	text-transform: uppercase;
 	font-size: 3em;
+	text-transform: uppercase;
 }
 
 .intro h1::after {
+	background: #fff;
 	content: '';
 	display: block;
-	width: 20px;
 	height: 4px;
-	background: #fff;
+	margin: 20px auto;
+	width: 20px;
 }
 
 .intro p {
-	font-style: italic;
 	font-size: 1.125em;
+	font-style: italic;
 }
 
 /* ABOUT */
