@@ -1,13 +1,23 @@
 /* HEADER */
-
 .header {
 	background: #252525;
+	padding: 15px 0;
 }
-
+.header-nav ul {
+	margin-left: auto;
+	margin-top: 5px;
+	width: fit-content;
+}
+.header-nav li {
+	display: inline-block;
+	list-style: none;
+}
 .header-nav a {
-	text-decoration: none;
 	color: #fff;
 	font-size: 1.125em;
+	margin-left: 10px;
+	padding: 10px;
+	text-decoration: none;
 }
 
 /* INTRO */
