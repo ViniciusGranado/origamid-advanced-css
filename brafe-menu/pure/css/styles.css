@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;  
+}
+body {
+  color: #252525;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+}
+
+.header-info {
+  background-color: #D6D3C8;
+  padding: 5px 0;
+}
+.header-info p {
+  font-size: 0.875rem;
+  letter-spacing: 0.05rem;
+}
+
+.header-logo {
+  padding: 40px 0;
+}
+.header-logo h1 {
+  background-image: url('../images/brafe.png');
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: fit-content;
+}
+.header-logo a {
+  display: block;
+  height: 37px;
+  opacity: 0;
+  width: 135px;
+}
+
+.header-menu {
+  border-bottom: 3px solid #D6D3C8;
+  border-top: 3px solid #D6D3C8;
+  padding: 15px 0;
+}
+.header-menu ul li{
+  display: inline-block;
+}
+.header-menu ul li a {
+  display: inline-block;
+  color: inherit;
+  font-size: 1.125rem;
+  letter-spacing: 0.05rem;
+  padding: 5px 10px 5px 0;
+  text-decoration: none;
+}
+.header-menu ul li:not(:first-child)::before {
+  content: '•';
+  display: inline-block;
+  margin-right: 10px;
+}
