@@ -57,3 +57,79 @@ body {
   display: inline-block;
   margin-right: 10px;
 }
+
+/* MAIN */
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 65px 0;
+}
+
+/* SIDE FILTER */
+.filter {
+  background-color: #E7E4D8;
+  border: 3px solid #C0BEB4;
+  float: left;
+  margin: 0 10px;
+  padding: 13px 27px;
+  width: 300px;
+}
+
+.filter h2 {
+  font-size: 1.125rem;
+  padding: 10px 0;
+}
+
+.filter ul {
+  padding: 5px 0;
+  border-bottom: 3px solid #C0BEB4;
+  border-top: 3px solid #C0BEB4;
+}
+.filter ul li {
+  cursor: pointer;
+  font-size: 1.125rem;
+  font-style: italic;
+  line-height: 1.8;
+}
+.filter li::after {
+  border: 3px solid #C0BEB4;
+  content: '';
+  float: right;
+  height: 20px;
+  margin-top: 5px;
+  width: 20px;
+}
+
+.filter a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.filter span {
+  background-color: currentColor;
+  border-radius: 50%;
+  display: inline-block;
+  height: 15px;
+  overflow: hidden;
+  text-indent: -200px;
+  vertical-align: middle;
+  width: 15px;
+}
+.filter .marrom {
+  box-shadow: 20px 0 0 0 currentColor,
+              40px 0 0 0 currentColor;
+  color: #492901;
+}
+.filter .laranja {
+  box-shadow: 20px 0 0 0 currentColor,
+              40px 0 0 0 currentColor,
+              60px 0 0 0 currentColor;
+  color: #C17139;
+}
+.filter .amarelo {
+  box-shadow: 20px 0 0 0 currentColor,
+              40px 0 0 0 currentColor,
+              60px 0 0 0 currentColor,
+              80px 0 0 0 currentColor;
+  color: #D7A54D;
+}
