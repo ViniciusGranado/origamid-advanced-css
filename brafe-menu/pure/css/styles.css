@@ -184,3 +184,16 @@ body {
   font-weight: normal;
   margin-top: 30px;
 }
+
+/* FOOTER */
+.footer {
+  background-color: #E7E4D8;
+  margin-top: 30px;
+  padding: 75px 0;
+}
+
+.footer p {
+  font-size: 1.125rem;
+  line-height: 1.4em;
+  text-align: center;
+}
