@@ -64,6 +64,11 @@ body {
   max-width: 960px;
   padding: 65px 0;
 }
+.container::before, .container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
 
 /* SIDE FILTER */
 .filter {
@@ -132,4 +137,50 @@ body {
               60px 0 0 0 currentColor,
               80px 0 0 0 currentColor;
   color: #D7A54D;
+}
+
+/* PRODUCTS */
+.products {
+  float: right;
+  margin: 0 10px;
+  width: 620px;
+}
+.products h2 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+
+.products li {
+  float: left;
+  margin-top: 40px;
+  position: relative;
+  width: 300px;
+}
+.products li:nth-child(odd) {
+  margin-right: 20px;
+}
+
+.products li img {
+  border: 3px solid #252525;
+  display: block;
+  max-width: 100%;
+  padding: 3px;
+}
+
+.products .price {
+  background-color: #E7E4D8;
+  bottom: 30px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  padding: 10px;
+  position: absolute;
+  width: 82px;
+}
+
+.products h3 {
+  font-size: 0.875rem;
+  font-weight: normal;
+  margin-top: 30px;
 }
