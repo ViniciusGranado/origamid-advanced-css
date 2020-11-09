@@ -2,7 +2,11 @@
   /* MAIN */
   .container {
     max-width: 720px;
+  }
 
+  /* SIDE FILTER */
+  .filter {
+    width: 220px;
   }
 }
 
@@ -10,5 +14,10 @@
   /* MAIN */
   .container {
     max-width: 300px;
+  }
+
+  /* SIDE FILTER */
+  .filter {
+    display: none;
   }
 }
