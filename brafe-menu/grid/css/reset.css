@@ -1,0 +1,17 @@
+body, p, h1, h2, ul, li {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	color: #252525;
+	font-family: Georgia, serif;
+}
+
+* {
+	box-sizing: border-box;
+}
