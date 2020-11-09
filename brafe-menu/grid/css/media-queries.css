@@ -1,0 +1,6 @@
+@media only screen and (max-width: 739px) {
+  /* ASIDE FILTER */
+  .filter {
+    display: none;
+  }
+}
