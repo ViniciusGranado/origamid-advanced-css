@@ -1,0 +1,14 @@
+@media only screen and (max-width: 979px) {
+  /* MAIN */
+  .container {
+    max-width: 720px;
+
+  }
+}
+
+@media only screen and (max-width: 739px) {
+  /* MAIN */
+  .container {
+    max-width: 300px;
+  }
+}
