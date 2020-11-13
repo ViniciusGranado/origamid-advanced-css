@@ -39,3 +39,57 @@ body {
 .header-menu li a {
   padding: 20px 0;
 }
+
+/* MAIN CONTAINER */
+.main:before, .main:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+/* SIDE MENU */
+.side-menu {
+  background-color: #252525;
+  float: left;
+  width: 290px;
+}
+
+.side-menu a {
+  border-bottom: 2px solid #484846;
+  color: #FFF;
+  display: block;
+  font-size: 1.125rem;
+  padding: 15px 20px 15px 28px;
+  transition: background-color 0.2s linear;
+}
+.side-menu a:hover {
+  background-color: #333333;
+}
+.side-menu a::before {
+  content: '';
+  background-image: url('../images/icones.png');
+  display: inline-block;
+  height: 24px;
+  margin-right: 20px;
+  position: relative;
+  top: 5px;
+  width: 24px;
+}
+.side-menu a.nav-contabilidade::before {
+  background-position: 0 0;
+}
+.side-menu a.nav-produtos::before {
+  background-position: 0 -24px;
+}
+.side-menu a.nav-paginas::before {
+  background-position: 0 -48px;
+}
+.side-menu a.nav-plugins::before {
+  background-position: 0 -72px;
+}
+.side-menu a.nav-formularios::before {
+  background-position: 0 -96px;
+}
+.side-menu a.nav-hospedagem::before {
+  background-position: 0 -120px;
+}
