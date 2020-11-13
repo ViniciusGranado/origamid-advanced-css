@@ -1,0 +1,41 @@
+body {
+  background-color: #E7E4D8;
+  color: #252525;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* HEADER */
+.header {
+  background-color: #D6D3C8;
+}
+.header::before, .header::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.header .logo {
+  background-image: url('../images/brafe.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+  padding: 20px 0;
+  width: 120px;
+}
+.header .logo h1 {
+  overflow: hidden;
+  text-indent: -100px;
+}
+
+.header .header-menu {
+  float: right;
+  font-size: 1.125rem;
+}
+.header-menu li {
+  display: inline-block;
+  margin: 20px 20px 20px 0;
+}
+
+.header-menu li a {
+  padding: 20px 0;
+}
