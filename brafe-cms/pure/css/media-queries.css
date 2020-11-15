@@ -1,0 +1,12 @@
+@media only screen and (max-width: 739px) {
+  /* HEADER */
+  .header .logo {
+    float: none;
+    margin: 0 auto;
+  }
+  .header .header-menu {
+    float: none;
+    text-align: center;
+  }
+  
+}

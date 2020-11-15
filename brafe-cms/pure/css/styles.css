@@ -18,6 +18,7 @@ body {
   background-image: url('../images/brafe.png');
   background-repeat: no-repeat;
   background-position: center center;
+  display: block;
   float: left;
   padding: 20px 0;
   width: 120px;
@@ -28,7 +29,7 @@ body {
 }
 
 .header .header-menu {
-  float: right;
+  /* float: right; */
   font-size: 1.125rem;
 }
 .header-menu li {
@@ -41,16 +42,14 @@ body {
 }
 
 /* MAIN CONTAINER */
-.main:before, .main:after {
-  clear: both;
-  content: '';
-  display: table;
+.main {
+  display: flex;
 }
+
 
 /* SIDE MENU */
 .side-menu {
   background-color: #252525;
-  float: left;
   width: 290px;
 }
 
@@ -96,11 +95,9 @@ body {
 
 /* PRODUCTS */
 .products {
-  float: left;
   width: calc(100% - 290px);
   max-width: 900px;
   padding: 20px;
-  margin: 0 auto;
 }
 
 .products-header {
