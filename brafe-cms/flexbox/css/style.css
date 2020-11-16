@@ -3,8 +3,15 @@
 .header {
 	background: #d6d3c8;
 	padding: 20px;
+	display: flex;
 }
 
+.header-logo {
+	flex-grow: 1;
+}
+.header-menu li {
+	display: inline-block;
+}
 .header-menu li a {
 	color: #252525;
 	font-size: 1.125em;
@@ -16,7 +23,6 @@
 }
 
 /*MAIN CONTAINER*/
-
 
 /*SIDE MENU*/
 
