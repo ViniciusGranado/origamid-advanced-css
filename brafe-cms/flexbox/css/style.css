@@ -23,11 +23,18 @@
 }
 
 /*MAIN CONTAINER*/
+.main-container {
+	display: flex;
+}
 
 /*SIDE MENU*/
 
 .side-menu {
 	background: #252525;
+	flex-grow: 1;
+	margin-right: 10px;
+	max-width: 295px;
+	min-width: 191px;
 }
 
 .side-menu li a {
@@ -46,7 +53,7 @@
 	top: 5px;
 	margin-right: 15px;
 	position: relative;
-	background-image: url('../img/icones.png');
+	background-image: url('../images/icones.png');
 }
 
 .nav-contabilidade::before {
@@ -76,11 +83,19 @@
 /* PRODUCTS */
 
 .products {
-	
+	flex-grow: 1;
+	max-width: 800px;
+	padding: 20px 10px;
+}
+
+.products-header {
+	display: flex;
+	justify-content: space-between;
 }
 
 .products h1 {
 	font-size: 2.25em;
+	margin-right: 20px;
 }
 
 .products-button {
@@ -100,8 +115,12 @@
 	box-shadow: 0 1px 3px 0 rgba(0,0,0,.35);
 	margin-top: 20px;
 	position: relative;
+	display: flex;
 }
 
+.products-item img {
+	align-self: flex-start;
+}
 
 .products-item a {
 	width: 24px;
@@ -111,11 +130,11 @@
 	position: absolute;
 	right: 20px;
 	top: 10px;
-	background: url('../img/edit.svg') no-repeat;
+	background: url('../images/edit.svg') no-repeat;
 }
 
 .products-item a:hover {
-	background: url('../img/edit-hover.svg') no-repeat;
+	background: url('../images/edit-hover.svg') no-repeat;
 }
 
 .products-item ul {
