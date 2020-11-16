@@ -1,0 +1,9 @@
+@media (max-width: 739px) {
+	.header-logo {
+		float: none;
+	}
+	.header-menu ul {
+		float: none;
+		margin-top: 10px;
+	}
+}
